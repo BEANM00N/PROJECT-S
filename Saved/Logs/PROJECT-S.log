@@ -644,3 +644,150 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.12.31-10.16.54:312][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
 [2022.12.31-10.16.54:354][  0]LogLiveCoding: Display: Starting LiveCoding
 [2022.12.31-10.16.54:354][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2022.12.31-10.17.25:214][  0]LogLiveCoding: Display: First instance in process group "UE_PROJECT-S_0x0741d920", spawning console
+[2022.12.31-10.17.25:214][  0]LogLiveCoding: Display: Waiting for server
+[2022.12.31-10.17.25:214][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2022.12.31-10.17.25:267][  0]LogInit: Transaction tracking system initialized
+[2022.12.31-10.17.25:544][  0]BlueprintLog: New page: Editor Load
+[2022.12.31-10.17.26:348][  0]LocalizationService: Localization service is disabled
+[2022.12.31-10.17.26:490][  0]TimingProfiler: Initialize
+[2022.12.31-10.17.26:499][  0]TimingProfiler: OnSessionChanged
+[2022.12.31-10.17.26:499][  0]LoadingProfiler: Initialize
+[2022.12.31-10.17.26:500][  0]LoadingProfiler: OnSessionChanged
+[2022.12.31-10.17.26:500][  0]NetworkingProfiler: Initialize
+[2022.12.31-10.17.26:500][  0]NetworkingProfiler: OnSessionChanged
+[2022.12.31-10.17.26:500][  0]MemoryProfiler: Initialize
+[2022.12.31-10.17.26:500][  0]MemoryProfiler: OnSessionChanged
+[2022.12.31-10.17.30:944][  0]LogFileCache: Scanning file cache for directory 'E:/projectspace/project S2/PROJECT-S/Content/' took 0.01s
+[2022.12.31-10.17.30:944][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2022.12.31-10.17.32:693][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.12.31-10.17.32:697][  0]SourceControl: Source control is disabled
+[2022.12.31-10.17.32:697][  0]LogUnrealEdMisc: Loading editor; pre map load, took 156.371
+[2022.12.31-10.17.32:697][  0]Cmd: MAP LOAD FILE="../../../../projectspace/project S2/PROJECT-S/Content/VRTemplate/Maps/VRTemplateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.31-10.17.32:698][  0]LightingResults: New page: Lighting Build
+[2022.12.31-10.17.32:707][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-10.17.32:707][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-10.17.32:708][  0]MapCheck: New page: Map Check
+[2022.12.31-10.17.32:708][  0]LightingResults: New page: Lighting Build
+[2022.12.31-10.17.32:733][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.12.31-10.17.32:739][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.12.31-10.17.33:796][  0]LogLinker: Warning: [AssetLog] E:\projectspace\project S2\PROJECT-S\Content\VRTemplate\Maps\VRTemplateMap.umap: Failed to load '/Game/VRTemplate/Maps/VRTemplateMap_BuiltData': Can't find file.
+[2022.12.31-10.17.33:796][  0]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/VRTemplate/Maps/VRTemplateMap_BuiltData'
+[2022.12.31-10.17.35:273][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'VRTemplateMap'.
+[2022.12.31-10.17.35:273][  0]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.12.31-10.17.35:273][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-10.17.35:275][  0]LogAIModule: Creating AISystem for world VRTemplateMap
+[2022.12.31-10.17.35:279][  0]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2022.12.31-10.17.35:279][  0]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2022.12.31-10.17.35:295][  0]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_TeleportTrace.NS_TeleportTrace took 0.066456 sec, no shader worker used.
+[2022.12.31-10.17.35:360][  0]LogRenderer: Warning: Deprectaed CVar r.BasePassOutputsVelocity is set to 0. Remove and use r.VelocityOutputPass instead.
+[2022.12.31-10.17.35:360][  0]LogRenderer: Warning: Deprectaed CVar r.VertexDeformationOutputsVelocity is set to 0. Remove and use r.Velocity.EnableVertexDeformation instead.
+[2022.12.31-10.17.35:360][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.31-10.17.35:398][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.12.31-10.17.35:398][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.31-10.17.35:399][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.156ms to complete.
+[2022.12.31-10.17.35:399][  0]LogFileHelpers: Loading map 'VRTemplateMap' took 2.702
+[2022.12.31-10.17.35:449][  0]LogUnrealEdMisc: Total Editor Startup Time, took 159.123
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: ================================================
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.00%
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2022.12.31-10.17.35:449][  0]LogShaderCompilers: Display: ================================================
+[2022.12.31-10.17.35:646][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.31-10.17.35:655][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.31-10.17.35:665][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.31-10.17.35:674][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.12.31-10.17.35:772][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:772][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:787][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:787][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:805][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:806][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:825][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:825][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:864][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:864][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:876][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:876][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:891][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:891][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:903][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:903][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:917][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:918][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:936][  0]LogPakFile: Display: Mounted Pak file 'E:/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2022.12.31-10.17.35:936][  0]LogPakFile: Display: Mount point: 'root:/' is not mounted to a valid Root Path yet, assets in this pak file may not be accessible until a corresponding UFS Mount Point is added through FPackageName::RegisterMountPoint.
+[2022.12.31-10.17.35:946][  0]LogFeaturePack: Error: Error in Feature pack E:/UE_5.0/FeaturePacks/TP_VirtualRealityBP.upack. Failed to parse manifest: Invalid Json Token. Line: 43 Ch: 4
+[2022.12.31-10.17.36:912][  0]LogSlate: The tab "TakeRecorder" attempted to spawn in layout 'LevelEditor_Layout_v1.8' but failed for some reason. It will not be displayed.
+[2022.12.31-10.17.37:163][  0]LogSlate: Took 0.085492 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.12.31-10.17.37:179][  0]LogSlate: Took 0.010546 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.12.31-10.17.37:195][  0]LogSlate: Took 0.013909 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.12.31-10.17.37:211][  0]LogSlate: Took 0.013012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.12.31-10.17.37:218][  0]LogSlate: Took 0.006063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.12.31-10.17.37:313][  0]LogViewport: Scene viewport resized to 1526x623, mode Windowed.
+[2022.12.31-10.17.37:695][  0]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.12.31-10.17.37:736][  0]LogStall: Startup...
+[2022.12.31-10.17.37:738][  0]LogStall: Startup complete.
+[2022.12.31-10.17.37:870][  0]LogLoad: (Engine Initialization) Total time: 161.54 seconds
+[2022.12.31-10.17.37:870][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.12.31-10.17.38:112][  0]LogAssetRegistry: Asset discovery search completed in 104.5959 seconds
+[2022.12.31-10.17.38:132][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.12.31-10.17.38:189][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.12.31-10.17.38:780][  1]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_MenuLaser.NS_MenuLaser took 3.761463 sec, no shader worker used.
+[2022.12.31-10.17.38:791][  1]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_PlayAreaBounds.NS_PlayAreaBounds took 3.696758 sec, no shader worker used.
+[2022.12.31-10.17.39:133][  2]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_TeleportRing.NS_TeleportRing took 3.982168 sec, no shader worker used.
+[2022.12.31-10.17.39:157][  2]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2022.12.31-10.17.39:312][  2]LogSlate: Took 0.110397 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.12.31-10.17.48:472][845]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.653 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.31-10.17.50:850][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.12.31-10.24.05:787][132]LogViewport: Scene viewport resized to 481x196, mode Windowed.
+[2022.12.31-11.08.15:746][201]LogViewport: Scene viewport resized to 1014x401, mode Windowed.
+[2022.12.31-11.08.16:163][201]LogViewport: Scene viewport resized to 320x126, mode Windowed.
+[2022.12.31-11.08.16:646][201]LogViewport: Scene viewport resized to 1526x623, mode Windowed.
+[2022.12.31-11.08.16:772][201]LogViewport: Scene viewport resized to 481x196, mode Windowed.
+[2022.12.31-11.08.50:014][334]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.12.31-11.08.50:027][334]LogContentBrowser: Creating deferred item: NewFolder
+[2022.12.31-11.08.50:060][335]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.12.31-11.09.02:519][173]LogContentBrowser: Attempting asset rename: NewFolder -> VoiceLines
+[2022.12.31-11.09.02:519][173]LogContentBrowser: End creating deferred item NewFolder
+[2022.12.31-11.10.05:632][690]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\niall\Downloads\Good afternoon, Captain! Today well be surveying.wav)
+[2022.12.31-11.10.05:698][690]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave Good_afternoon__Captain__Today_well_be_surveying...
+[2022.12.31-11.10.05:759][690]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 435940 while cooking SoundWave /Game/TESTCHAR/VoiceLines/Good_afternoon__Captain__Today_well_be_surveying.Good_afternoon__Captain__Today_well_be_surveying.
+[2022.12.31-11.10.05:759][690]LogAudio: Display: Chunk size for SoundWave /Game/TESTCHAR/VoiceLines/Good_afternoon__Captain__Today_well_be_surveying.Good_afternoon__Captain__Today_well_be_surveying: 262144
+[2022.12.31-11.10.15:501][101]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.10.15:502][101]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.10.15:983][125]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.10.15:983][125]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.10.55:572][806]LogContentBrowser: Attempting asset rename: Good_afternoon__Captain__Today_well_be_surveying -> VoiceLine1
+[2022.12.31-11.10.57:071][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/VoiceLines/VoiceLine1" FILE="../../../../projectspace/project S2/PROJECT-S/Content/TESTCHAR/VoiceLines/VoiceLine1.uasset" SILENT=true
+[2022.12.31-11.10.57:083][806]LogPackageLocalizationCache: Processed 34 localized package path(s) for 1 prioritized culture(s) in 0.011182 seconds
+[2022.12.31-11.10.57:090][806]LogSavePackage: Moving output files for package: /Game/TESTCHAR/VoiceLines/VoiceLine1
+[2022.12.31-11.10.57:091][806]LogSavePackage: Moving '../../../../projectspace/project S2/PROJECT-S/Saved/VoiceLine1A43B1FB44A66D57B5FA04590C9404653.tmp' to '../../../../projectspace/project S2/PROJECT-S/Content/TESTCHAR/VoiceLines/VoiceLine1.uasset'
+[2022.12.31-11.10.57:281][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2022.12.31-11.10.57:324][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2022.12.31-11.10.57:361][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.12.31-11.10.57:418][806]AssetCheck: New page: Asset Save: VoiceLine1
+[2022.12.31-11.10.57:418][806]LogContentValidation: Display: Validating SoundWave /Game/TESTCHAR/VoiceLines/VoiceLine1.VoiceLine1
+[2022.12.31-11.11.36:072][777]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.12.31-11.11.37:466][858]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.VRTemplateMap
+[2022.12.31-11.11.37:565][858]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-11.11.44:253][858]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2022.12.31-11.11.44:253][858]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049900s
+[2022.12.31-11.11.44:253][858]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.003624s (2.892545s overbudget)
+[2022.12.31-11.11.44:402][858]LogSlate: Took 0.018292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.12.31-11.12.33:579][320]LogSlate: Window 'VRTemplateMap' being destroyed
+[2022.12.31-11.12.33:597][320]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-11.12.33:597][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-11.15.39:269][581]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/TESTCHAR/NewInterface.NewInterface
+[2022.12.31-11.15.39:270][581]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.12.31-11.15.45:233][898]LogSlate: Window 'NewInterface' being destroyed
+[2022.12.31-11.15.45:253][898]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.12.31-11.15.45:253][898]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.12.31-11.17.48:131][967]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.311 and deleted 0 file(s) with total size 0 MiB.
+[2022.12.31-11.22.07:558][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2022.12.31-11.22.09:842][598]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
