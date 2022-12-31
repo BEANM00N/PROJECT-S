@@ -791,3 +791,54 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.12.31-11.17.48:131][967]LogDerivedDataCache: C:/Users/niall/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.311 and deleted 0 file(s) with total size 0 MiB.
 [2022.12.31-11.22.07:558][449]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
 [2022.12.31-11.22.09:842][598]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2022.12.31-11.28.46:401][536]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\niall\Downloads\Great! Now Were in Range of the planet. Take your.wav)
+[2022.12.31-11.28.46:416][536]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave Great__Now_Were_in_Range_of_the_planet__Take_your...
+[2022.12.31-11.28.46:474][536]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 316078 while cooking SoundWave /Game/TESTCHAR/VoiceLines/Great__Now_Were_in_Range_of_the_planet__Take_your.Great__Now_Were_in_Range_of_the_planet__Take_your.
+[2022.12.31-11.28.46:474][536]LogAudio: Display: Chunk size for SoundWave /Game/TESTCHAR/VoiceLines/Great__Now_Were_in_Range_of_the_planet__Take_your.Great__Now_Were_in_Range_of_the_planet__Take_your: 262144
+[2022.12.31-11.28.49:425][592]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.28.49:425][592]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.29.18:585][188]LogContentBrowser: Attempting asset rename: Great__Now_Were_in_Range_of_the_planet__Take_your -> Great__Now_Were_in_Range_of_the_planet__Take_your
+[2022.12.31-11.29.20:995][377]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.29.20:995][377]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.29.21:287][389]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.29.21:287][389]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.29.28:639][105]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.29.28:639][105]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.29.30:500][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2022.12.31-11.29.32:381][252]LogSlate: Window 'Delete Assets' being destroyed
+[2022.12.31-11.29.32:529][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.12.31-11.29.32:610][252]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.12.31-11.29.32:680][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2022.12.31-11.32.27:179][799]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Digital Audio (S/PDIF) (High Definition Audio Device), InstanceID=1
+[2022.12.31-11.32.27:179][799]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=22464
+[2022.12.31-11.32.27:507][799]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{c7e6fea9-12db-4a1e-9d4d-a12a508d91ad}, Name=Digital Audio (S/PDIF) (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=113.42
+[2022.12.31-11.32.27:507][799]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.12.31-11.32.27:518][800]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.12.31-11.44.19:806][953]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\niall\Downloads\Great! Now Were in Range of the planet. Take your (1).wav)
+[2022.12.31-11.44.19:824][953]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave Great__Now_Were_in_Range_of_the_planet__Take_your__1_...
+[2022.12.31-11.44.19:866][953]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 332142 while cooking SoundWave /Game/TESTCHAR/VoiceLines/Great__Now_Were_in_Range_of_the_planet__Take_your__1_.Great__Now_Were_in_Range_of_the_planet__Take_your__1_.
+[2022.12.31-11.44.19:866][953]LogAudio: Display: Chunk size for SoundWave /Game/TESTCHAR/VoiceLines/Great__Now_Were_in_Range_of_the_planet__Take_your__1_.Great__Now_Were_in_Range_of_the_planet__Take_your__1_: 262144
+[2022.12.31-11.44.36:960][855]LogContentBrowser: Attempting asset rename: VoiceLine1 -> LevelBegin
+[2022.12.31-11.44.37:115][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/VoiceLines/LevelBegin" FILE="../../../../projectspace/project S2/PROJECT-S/Content/TESTCHAR/VoiceLines/LevelBegin.uasset" SILENT=true
+[2022.12.31-11.44.37:117][855]LogSavePackage: Moving output files for package: /Game/TESTCHAR/VoiceLines/LevelBegin
+[2022.12.31-11.44.37:117][855]LogSavePackage: Moving '../../../../projectspace/project S2/PROJECT-S/Saved/LevelBegin869EF075440B31E2CC3899805C6BA632.tmp' to '../../../../projectspace/project S2/PROJECT-S/Content/TESTCHAR/VoiceLines/LevelBegin.uasset'
+[2022.12.31-11.44.37:271][855]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.12.31-11.44.37:351][855]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.12.31-11.44.37:420][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.12.31-11.44.37:430][855]AssetCheck: New page: Asset Save: LevelBegin
+[2022.12.31-11.44.37:430][855]LogContentValidation: Display: Validating SoundWave /Game/TESTCHAR/VoiceLines/LevelBegin.LevelBegin
+[2022.12.31-11.44.39:466][  8]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.44.39:466][  8]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.12.31-11.45.05:888][902]LogContentBrowser: Attempting asset rename: Great__Now_Were_in_Range_of_the_planet__Take_your__1_ -> Planet_approached_scan_the_planet
+[2022.12.31-11.45.05:984][902]LogSavePackage: Moving output files for package: /Game/TESTCHAR/VoiceLines/Planet_approached_scan_the_planet
+[2022.12.31-11.45.05:984][902]LogSavePackage: Moving '../../../../projectspace/project S2/PROJECT-S/Saved/Planet_approached_scan_the_plane61FD043E4D677BE2089636A4B9F76DF5.tmp' to '../../../../projectspace/project S2/PROJECT-S/Content/TESTCHAR/VoiceLines/Planet_approached_scan_the_planet.uasset'
+[2022.12.31-11.45.06:116][902]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.12.31-11.45.06:187][902]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.12.31-11.45.06:262][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.12.31-11.45.06:271][902]AssetCheck: New page: Asset Save: Planet_approached_scan_the_planet
+[2022.12.31-11.45.06:271][902]LogContentValidation: Display: Validating SoundWave /Game/TESTCHAR/VoiceLines/Planet_approached_scan_the_planet.Planet_approached_scan_the_planet
+[2022.12.31-12.14.45:919][ 68]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (High Definition Audio Device), InstanceID=1
+[2022.12.31-12.14.45:965][ 69]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=22464
+[2022.12.31-12.14.46:490][ 94]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b7197795-e6fa-45dd-b9f9-3c405336c3cf}, Name=Speakers (High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=548.21
+[2022.12.31-12.14.46:490][ 94]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.12.31-12.14.46:504][ 95]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
