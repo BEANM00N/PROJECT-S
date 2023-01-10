@@ -751,3 +751,24 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.10-14.50.24:755][586]LogContentBrowser: Attempting asset rename: NewFolder -> SFX
 [2023.01.10-14.50.24:755][586]LogContentBrowser: End creating deferred item NewFolder
 [2023.01.10-14.52.38:284][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.01.10-14.57.17:979][230]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\niall\Downloads\ES_Transporter 4 - SFX Producer.wav)
+[2023.01.10-14.57.18:188][230]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA00_StreamCache_Ver5027_MEM_65536MaxChnkSize_0000000 wave ES_Transporter_4_-_SFX_Producer...
+[2023.01.10-14.57.18:236][230]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 376832 while cooking SoundWave /Game/TESTCHAR/SFX/ES_Transporter_4_-_SFX_Producer.ES_Transporter_4_-_SFX_Producer.
+[2023.01.10-14.57.18:254][230]LogAudio: Display: Chunk size for SoundWave /Game/TESTCHAR/SFX/ES_Transporter_4_-_SFX_Producer.ES_Transporter_4_-_SFX_Producer: 262144
+[2023.01.10-14.57.20:946][242]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.10-14.57.20:947][242]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2023.01.10-14.57.24:771][598]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/TESTCHAR/SFX/ES_Transporter_4_-_SFX_Producer.ES_Transporter_4_-_SFX_Producer
+[2023.01.10-14.57.26:781][666]LogSlate: Window 'ES_Transporter_4_-_SFX_Producer' being destroyed
+[2023.01.10-14.57.26:795][666]LogSlate: Window 'ES_Transporter_4_-_SFX_Producer' being destroyed
+[2023.01.10-14.57.40:655][127]LogContentBrowser: Attempting asset rename: ES_Transporter_4_-_SFX_Producer -> Teleport
+[2023.01.10-14.57.42:120][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TESTCHAR/SFX/Teleport" FILE="../../../../projectspace/project S2/PROJECT-S/Content/TESTCHAR/SFX/Teleport.uasset" SILENT=true
+[2023.01.10-14.57.42:229][127]LogPackageLocalizationCache: Processed 34 localized package path(s) for 1 prioritized culture(s) in 0.043309 seconds
+[2023.01.10-14.57.42:425][127]LogSavePackage: Moving output files for package: /Game/TESTCHAR/SFX/Teleport
+[2023.01.10-14.57.42:425][127]LogSavePackage: Moving '../../../../projectspace/project S2/PROJECT-S/Saved/TeleportBDB08E364773147163C64A97F1E2784F.tmp' to '../../../../projectspace/project S2/PROJECT-S/Content/TESTCHAR/SFX/Teleport.uasset'
+[2023.01.10-14.57.42:726][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.01.10-14.57.42:760][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.01.10-14.57.42:790][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.01.10-14.57.42:871][127]AssetCheck: New page: Asset Save: Teleport
+[2023.01.10-14.57.42:871][127]LogContentValidation: Display: Validating SoundWave /Game/TESTCHAR/SFX/Teleport.Teleport
+[2023.01.10-14.59.00:715][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.01.10-14.59.13:121][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
