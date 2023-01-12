@@ -1773,3 +1773,314 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.12-20.02.43:421][506]AssetCheck: New page: Asset Save: multiple assets
 [2023.01.12-20.02.43:421][506]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
 [2023.01.12-20.02.43:421][506]LogContentValidation: Display: Validating Blueprint /Game/VRTemplate/Blueprints/ContactColony.ContactColony
+[2023.01.12-20.03.00:363][727]LogTurnkeySupport: Display: Adding device menu item for JOSHLAPTOP
+[2023.01.12-20.03.15:906][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.01.12-20.03.22:988][644]LogTurnkeySupport: Project requires temp target (OpenXR plugin is enabled)
+[2023.01.12-20.03.22:988][644]LogLauncherProfile: Unable to use promoted target - ../../../../../../Users/joshm/Desktop/PROJECT-S/PROJECT-S/Binaries/Android/UnrealGame.target does not exist.
+[2023.01.12-20.03.23:018][644]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat" -ScriptsForProject="C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject" Turnkey -command=VerifySdk -platform=Android -UpdateIfNeeded -EditorIO -EditorIOPort=61844  -project="C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject"  -unrealexe="C:\Program Files\Epic Games\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Android  -cookflavor=ASTC -ddc=InstalledDerivedDataBackendGraph -installed -stage -archive -package -build -compressed -iostore -pak -prereqs -archivedirectory="C:/Users/joshm/Desktop" -clientconfig=Development" -nocompile ]
+[2023.01.12-20.03.23:343][644]UATHelper: Packaging (Android (ASTC)): Running AutomationTool...
+[2023.01.12-20.03.23:343][644]UATHelper: Packaging (Android (ASTC)): Parsing command line: -ScriptsForProject=C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject Turnkey -command=VerifySdk -platform=Android -UpdateIfNeeded -EditorIO -EditorIOPort=61844 -project=C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project=C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject -unrealexe="C:\Program Files\Epic Games\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Android -cookflavor=ASTC -ddc=InstalledDerivedDataBackendGraph -installed -stage -archive -package -build -compressed -iostore -pak -prereqs -archivedirectory=C:/Users/joshm/Desktop -clientconfig=Development -nocompile
+[2023.01.12-20.03.23:681][654]UATHelper: Packaging (Android (ASTC)): Log location: C:\Users\joshm\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.0\Log.txt
+[2023.01.12-20.03.23:880][666]UATHelper: Packaging (Android (ASTC)): Installed Sdk validity:
+[2023.01.12-20.03.23:896][667]UATHelper: Packaging (Android (ASTC)): Android: (Status=Valid, Installed=r21e, AutoSDK=, MinAllowed=r21a, MaxAllowed=r23a, Flags="InstalledSdk_ValidVersionExists")
+[2023.01.12-20.03.23:896][667]UATHelper: Packaging (Android (ASTC)): Scanning for envvar changes...
+[2023.01.12-20.03.23:896][667]UATHelper: Packaging (Android (ASTC)): ... done! 
+[2023.01.12-20.03.23:896][667]UATHelper: Packaging (Android (ASTC)): Cleaning Temp Paths...
+[2023.01.12-20.03.23:896][667]UATHelper: Packaging (Android (ASTC)): BUILD SUCCESSFUL
+[2023.01.12-20.03.23:896][667]UATHelper: Packaging (Android (ASTC)): Setting up ProjectParams for C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\PROJECT-S.uproject
+[2023.01.12-20.03.24:046][676]UATHelper: Packaging (Android (ASTC)): PROJECT-S.uproject requires a temporary target.cs to be generated (OpenXR plugin is enabled)
+[2023.01.12-20.03.24:191][684]UATHelper: Packaging (Android (ASTC)): WARNING: Errors generated while parsing 'C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs'
+[2023.01.12-20.03.24:191][684]PackagingResults: Warning: Errors generated while parsing 'C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs'
+[2023.01.12-20.03.24:197][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS1514: { expected
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS1513: } expected
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS8652: The feature 'top-level statements' is currently in Preview and *unsupported*. To use Preview features, use the 'preview' language version.
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS8803: Top-level statements must precede namespace and type declarations.
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,30): error CS1002: ; expected
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,30): error CS1022: Type or namespace definition, or end-of-file expected
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,32): error CS0116: A namespace cannot directly contain members such as fields or methods
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(4,2): error CS1513: } expected
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,9): error CS0116: A namespace cannot directly contain members such as fields or methods
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,36): error CS1003: Syntax error, ',' expected
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,44): error CS1002: ; expected
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,44): error CS1022: Type or namespace definition, or end-of-file expected
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,58): error CS1002: ; expected
+[2023.01.12-20.03.24:198][685]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(11,1): error CS1022: Type or namespace definition, or end-of-file expected
+[2023.01.12-20.03.24:213][686]UATHelper: Packaging (Android (ASTC)): ERROR: System.NullReferenceException: Object reference not set to an instance of an object.
+[2023.01.12-20.03.24:213][686]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectUtils.CompileAndLoadTargetsAssembly(ProjectProperties Properties, FileReference TargetsDllFilename, Boolean DoNotCompile, List`1 TargetScripts) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 773
+[2023.01.12-20.03.24:213][686]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectUtils.DetectTargetsForProject(ProjectProperties Properties, List`1 ExtraSearchPaths) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 751
+[2023.01.12-20.03.24:213][686]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectUtils.DetectProjectProperties(FileReference RawProjectPath, List`1 ClientTargetPlatforms, List`1 ClientTargetConfigurations, Boolean AssetNativizationRequested) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 567
+[2023.01.12-20.03.24:213][686]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectUtils.GetProjectProperties(FileReference RawProjectPath, List`1 ClientTargetPlatforms, List`1 ClientTargetConfigurations, Boolean AssetNativizationRequested) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 118
+[2023.01.12-20.03.24:213][686]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectParams.AutodetectSettings(Boolean bReset) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectParams.cs:line 2207
+[2023.01.12-20.03.24:213][686]PackagingResults: Error: System.NullReferenceException: Object reference not set to an instance of an object.
+[2023.01.12-20.03.24:233][687]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectParams..ctor(FileReference RawProjectPath, BuildCommand Command, String Device, String MapToRun, String AdditionalServerMapParams, ParamList`1 Port, String RunCommandline, String StageCommandline, String BundleName, String StageDirectoryParam, String UnrealExe, String UE4Exe, String SignPak, List`1 ClientConfigsToBuild, List`1 ServerConfigsToBuild, ParamList`1 MapsToCook, ParamList`1 MapIniSectionsToCook, ParamList`1 DirectoriesToCook, String DDCGraph, String InternationalizationPreset, ParamList`1 CulturesToCook, ParamList`1 ClientCookedTargets, ParamList`1 EditorTargets, ParamList`1 ServerCookedTargets, List`1 ClientTargetPlatforms, Dictionary`2 ClientDependentPlatformMap, List`1 ServerTargetPlatforms, Dictionary`2 ServerDependentPlatformMap, Nullable`1 Build, Nullable`1 SkipBuildClient, Nullable`1 SkipBuildEditor, Nullable`1 Cook, Nullable`1 Run, Nullable`1 SkipServer, Nullable`1 Clean, Nullable`1 Compressed, Nullable`1 ForceUncompressed, String AdditionalPakOptions, String AdditionalIoStoreOptions, Nullable`1 IterativeCooking, String IterateSharedCookedBuild, Nullable`1 IterateSharedBuildUsePrecompiledExe, Nullable`1 CookAll, Nullable`1 CookPartialGC, Nullable`1 CookInEditor, String CookOutputDir, Nullable`1 CookMapsOnly, Nullable`1 CookOnTheFly, Nullable`1 CookOnTheFlyStreaming, Nullable`1 UnversionedCookedContent, Nullable`1 EncryptIniFiles, Nullable`1 EncryptPakIndex, Nullable`1 EncryptEverything, Nullable`1 SkipCookingEditorContent, Nullable`1 NumCookersToSpawn, String AdditionalCookerOptions, String OriginalReleaseVersion, String BasedOnReleaseVersion, String CreateReleaseVersion, String CreateReleaseVersionBasePath, String BasedOnReleaseVersionBasePath, Nullable`1 GeneratePatch, Nullable`1 AddPatchLevel, Nullable`1 StageBaseReleasePaks, String DiscVersion, String DLCName, String DLCOverrideCookedSubDir, String DLCOverrideStagedSubDir, String DiffCookedContentPath, Nullable`1 DLCIncludeEngineContent, Nullable`1 DLCPakPluginFile, Nullable`1 DLCActLikePatch, Nullable`1 CrashReporter, Nullable`1 DedicatedServer, Nullable`1 Client, Nullable`1 Deploy, String DeployFolder, String GetFile, Nullable`1 FileServer, Nullable`1 Foreign, Nullable`1 ForeignCode, Nullable`1 LogWindow, Nullable`1 NoCleanStage, Nullable`1 NoClient, Nullable`1 NoDebugInfo, Nullable`1 SeparateDebugInfo, Nullable`1 MapFile, Nullable`1 NoXGE, Nullable`1 SkipPackage, Nullable`1 Package, Nullable`1 Pak, Nullable`1 IgnorePaksFromDifferentCookSource, Nullable`1 IoStore, Nullable`1 Cook4IoStore, Nullable`1 ZenStore, Nullable`1 SkipIoStore, Nullable`1 GenerateOptimizationData, Nullable`1 Prereqs, String AppLocalDirectory, Nullable`1 NoBootstrapExe, Nullable`1 SignedPak, Nullable`1 PakAlignForMemoryMapping, Nullable`1 NullRHI, Nullable`1 FakeClient, Nullable`1 EditorTest, Nullable`1 RunAutomationTests, String RunAutomationTest, Nullable`1 CrashIndex, Nullable`1 SkipCook, Nullable`1 SkipCookOnTheFly, Nullable`1 SkipPak, Nullable`1 PrePak, Nullable`1 SkipStage, Nullable`1 Stage, Nullable`1 Manifests, Nullable`1 CreateChunkInstall, Nullable`1 SkipEncryption, Nullable`1 Unattended, Nullable`1 NumClients, Nullable`1 Archive, String ArchiveDirectoryParam, Nullable`1 ArchiveMetaData, Nullable`1 CreateAppBundle, String SpecifiedClientTarget, String SpecifiedServerTarget, ParamList`1 ProgramTargets, Nullable`1 Distribution, String PackageEncryptionKeyFile, Nullable`1 Prebuilt, Nullable`1 RunTimeoutSeconds, String SpecifiedArchitecture, String UbtArgs, String AdditionalPackageOptions, Nullable`1 IterativeDeploy, Nullable`1 FastCook, Nullable`1 IgnoreCookErrors, Nullable`1 CodeSign, Nullable`1 TreatNonShippingBinariesAsDebugFiles, Nullable`1 UseExtraFlavor, String Provision, String Certificate, String Team, Boolean AutomaticSigning, ParamList`1 InMapsToRebuildLightMaps, ParamList`1 InMapsToRebuildHLOD, ParamList`1 TitleID) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectParams.cs:line 1163
+[2023.01.12-20.03.24:234][687]UATHelper: Packaging (Android (ASTC)):           at BuildCookRun.SetupParams() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\BuildCookRun.Automation.cs:line 47
+[2023.01.12-20.03.24:234][687]UATHelper: Packaging (Android (ASTC)):           at BuildCookRun.ExecuteBuild() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\BuildCookRun.Automation.cs:line 38
+[2023.01.12-20.03.24:234][687]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.BuildCommand.Execute() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\BuildCommand.cs:line 343
+[2023.01.12-20.03.24:234][687]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.Automation.Execute(List`1 CommandsToExecute, Dictionary`2 Commands) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\Automation.cs:line 253
+[2023.01.12-20.03.24:234][687]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.Automation.Process(ParsedCommandLine AutomationToolCommandLine, StartupTraceListener StartupListener, HashSet`1 ScriptModuleAssemblies) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\Automation.cs:line 153
+[2023.01.12-20.03.24:234][687]UATHelper: Packaging (Android (ASTC)):        (see C:\Users\joshm\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.0\Log.txt for full exception trace)
+[2023.01.12-20.03.24:234][687]UATHelper: Packaging (Android (ASTC)): AutomationTool executed for 0h 0m 0s
+[2023.01.12-20.03.24:234][687]UATHelper: Packaging (Android (ASTC)): AutomationTool exiting with ExitCode=1 (Error_Unknown)
+[2023.01.12-20.03.24:247][688]UATHelper: Packaging (Android (ASTC)): Updating environment variables set by a Turnkey sub-process
+[2023.01.12-20.03.24:247][688]UATHelper: Packaging (Android (ASTC)): The system cannot find the path specified.
+[2023.01.12-20.03.24:247][688]UATHelper: Packaging (Android (ASTC)): The system cannot find the path specified.
+[2023.01.12-20.03.40:499][120]LogTurnkeySupport: Display: Adding device menu item for JOSHLAPTOP
+[2023.01.12-20.03.46:320][456]LogTurnkeySupport: Display: Adding device menu item for JOSHLAPTOP
+[2023.01.12-20.05.08:861][568]LogViewport: Scene viewport resized to 450x338, mode Windowed.
+[2023.01.12-20.05.10:538][668]Cmd: DELETE
+[2023.01.12-20.05.10:538][668]Cmd: ACTOR DELETE
+[2023.01.12-20.05.10:541][668]LogEditorActor: Deleted Actor: VRPawn_C
+[2023.01.12-20.05.10:641][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.01.12-20.05.10:666][668]LogEditorActor: Deleted 1 Actors (0.128 secs)
+[2023.01.12-20.05.34:498][ 98]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.01.12-20.05.38:064][312]Cmd: DELETE
+[2023.01.12-20.05.38:064][312]Cmd: ACTOR DELETE
+[2023.01.12-20.05.38:067][312]LogEditorActor: Deleted Actor: ButtonCollision_C
+[2023.01.12-20.05.38:139][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2023.01.12-20.05.38:165][312]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2023.01.12-20.05.42:999][593]EditorErrors: New page: Actor attachment
+[2023.01.12-20.05.46:259][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.01.12-20.05.46:323][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.01.12-20.05.46:345][784]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.01.12-20.05.46:346][784]LogSavePackage: Moving '../../../../../../Users/joshm/Desktop/PROJECT-S/PROJECT-S/Saved/VRTemplateMap0000A55D4DB9BF7F19CCC7B7DBF37CA1.tmp' to '../../../../../../Users/joshm/Desktop/PROJECT-S/PROJECT-S/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2023.01.12-20.05.46:356][784]LogFileHelpers: No new changes to save!
+[2023.01.12-20.05.46:356][784]LogFileHelpers: Saving map 'VRTemplateMap' took 0.053
+[2023.01.12-20.05.46:371][784]AssetCheck: New page: Asset Save: VRTemplateMap
+[2023.01.12-20.05.46:371][784]LogContentValidation: Display: Validating World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2023.01.12-20.05.47:833][863]LogTurnkeySupport: Display: Adding device menu item for JOSHLAPTOP
+[2023.01.12-20.05.50:951][ 45]LogTurnkeySupport: Display: Adding device menu item for JOSHLAPTOP
+[2023.01.12-20.05.58:283][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.01.12-20.06.02:299][478]LogTurnkeySupport: Project requires temp target (OpenXR plugin is enabled)
+[2023.01.12-20.06.02:300][478]LogLauncherProfile: Unable to use promoted target - ../../../../../../Users/joshm/Desktop/PROJECT-S/PROJECT-S/Binaries/Android/UnrealGame.target does not exist.
+[2023.01.12-20.06.02:313][478]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat" -ScriptsForProject="C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject" Turnkey -command=VerifySdk -platform=Android -UpdateIfNeeded -EditorIO -EditorIOPort=61844  -project="C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject"  -unrealexe="C:\Program Files\Epic Games\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Android  -cookflavor=ASTC -ddc=InstalledDerivedDataBackendGraph -installed -stage -archive -package -build -compressed -iostore -pak -prereqs -archivedirectory="C:/Users/joshm/Desktop" -clientconfig=Development" -nocompile ]
+[2023.01.12-20.06.02:364][480]UATHelper: Packaging (Android (ASTC)): Running AutomationTool...
+[2023.01.12-20.06.02:552][491]UATHelper: Packaging (Android (ASTC)): Parsing command line: -ScriptsForProject=C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject Turnkey -command=VerifySdk -platform=Android -UpdateIfNeeded -EditorIO -EditorIOPort=61844 -project=C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project=C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject -unrealexe="C:\Program Files\Epic Games\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Android -cookflavor=ASTC -ddc=InstalledDerivedDataBackendGraph -installed -stage -archive -package -build -compressed -iostore -pak -prereqs -archivedirectory=C:/Users/joshm/Desktop -clientconfig=Development -nocompile
+[2023.01.12-20.06.02:819][507]UATHelper: Packaging (Android (ASTC)): Log location: C:\Users\joshm\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.0\Log.txt
+[2023.01.12-20.06.03:020][519]UATHelper: Packaging (Android (ASTC)): Installed Sdk validity:
+[2023.01.12-20.06.03:020][519]UATHelper: Packaging (Android (ASTC)): Android: (Status=Valid, Installed=r21e, AutoSDK=, MinAllowed=r21a, MaxAllowed=r23a, Flags="InstalledSdk_ValidVersionExists")
+[2023.01.12-20.06.03:020][519]UATHelper: Packaging (Android (ASTC)): Scanning for envvar changes...
+[2023.01.12-20.06.03:020][519]UATHelper: Packaging (Android (ASTC)): ... done! 
+[2023.01.12-20.06.03:020][519]UATHelper: Packaging (Android (ASTC)): Cleaning Temp Paths...
+[2023.01.12-20.06.03:020][519]UATHelper: Packaging (Android (ASTC)): BUILD SUCCESSFUL
+[2023.01.12-20.06.03:020][519]UATHelper: Packaging (Android (ASTC)): Setting up ProjectParams for C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\PROJECT-S.uproject
+[2023.01.12-20.06.03:171][528]UATHelper: Packaging (Android (ASTC)): PROJECT-S.uproject requires a temporary target.cs to be generated (OpenXR plugin is enabled)
+[2023.01.12-20.06.03:319][537]UATHelper: Packaging (Android (ASTC)): WARNING: Errors generated while parsing 'C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs'
+[2023.01.12-20.06.03:319][537]PackagingResults: Warning: Errors generated while parsing 'C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs'
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS1514: { expected
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS1513: } expected
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS8652: The feature 'top-level statements' is currently in Preview and *unsupported*. To use Preview features, use the 'preview' language version.
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS8803: Top-level statements must precede namespace and type declarations.
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,30): error CS1002: ; expected
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,30): error CS1022: Type or namespace definition, or end-of-file expected
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,32): error CS0116: A namespace cannot directly contain members such as fields or methods
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(4,2): error CS1513: } expected
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,9): error CS0116: A namespace cannot directly contain members such as fields or methods
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,36): error CS1003: Syntax error, ',' expected
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,44): error CS1002: ; expected
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,44): error CS1022: Type or namespace definition, or end-of-file expected
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,58): error CS1002: ; expected
+[2023.01.12-20.06.03:337][538]UATHelper: Packaging (Android (ASTC)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(11,1): error CS1022: Type or namespace definition, or end-of-file expected
+[2023.01.12-20.06.03:347][538]UATHelper: Packaging (Android (ASTC)): ERROR: System.NullReferenceException: Object reference not set to an instance of an object.
+[2023.01.12-20.06.03:347][538]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectUtils.CompileAndLoadTargetsAssembly(ProjectProperties Properties, FileReference TargetsDllFilename, Boolean DoNotCompile, List`1 TargetScripts) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 773
+[2023.01.12-20.06.03:347][538]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectUtils.DetectTargetsForProject(ProjectProperties Properties, List`1 ExtraSearchPaths) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 751
+[2023.01.12-20.06.03:347][538]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectUtils.DetectProjectProperties(FileReference RawProjectPath, List`1 ClientTargetPlatforms, List`1 ClientTargetConfigurations, Boolean AssetNativizationRequested) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 567
+[2023.01.12-20.06.03:347][538]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectUtils.GetProjectProperties(FileReference RawProjectPath, List`1 ClientTargetPlatforms, List`1 ClientTargetConfigurations, Boolean AssetNativizationRequested) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 118
+[2023.01.12-20.06.03:347][538]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectParams.AutodetectSettings(Boolean bReset) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectParams.cs:line 2207
+[2023.01.12-20.06.03:347][538]PackagingResults: Error: System.NullReferenceException: Object reference not set to an instance of an object.
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.ProjectParams..ctor(FileReference RawProjectPath, BuildCommand Command, String Device, String MapToRun, String AdditionalServerMapParams, ParamList`1 Port, String RunCommandline, String StageCommandline, String BundleName, String StageDirectoryParam, String UnrealExe, String UE4Exe, String SignPak, List`1 ClientConfigsToBuild, List`1 ServerConfigsToBuild, ParamList`1 MapsToCook, ParamList`1 MapIniSectionsToCook, ParamList`1 DirectoriesToCook, String DDCGraph, String InternationalizationPreset, ParamList`1 CulturesToCook, ParamList`1 ClientCookedTargets, ParamList`1 EditorTargets, ParamList`1 ServerCookedTargets, List`1 ClientTargetPlatforms, Dictionary`2 ClientDependentPlatformMap, List`1 ServerTargetPlatforms, Dictionary`2 ServerDependentPlatformMap, Nullable`1 Build, Nullable`1 SkipBuildClient, Nullable`1 SkipBuildEditor, Nullable`1 Cook, Nullable`1 Run, Nullable`1 SkipServer, Nullable`1 Clean, Nullable`1 Compressed, Nullable`1 ForceUncompressed, String AdditionalPakOptions, String AdditionalIoStoreOptions, Nullable`1 IterativeCooking, String IterateSharedCookedBuild, Nullable`1 IterateSharedBuildUsePrecompiledExe, Nullable`1 CookAll, Nullable`1 CookPartialGC, Nullable`1 CookInEditor, String CookOutputDir, Nullable`1 CookMapsOnly, Nullable`1 CookOnTheFly, Nullable`1 CookOnTheFlyStreaming, Nullable`1 UnversionedCookedContent, Nullable`1 EncryptIniFiles, Nullable`1 EncryptPakIndex, Nullable`1 EncryptEverything, Nullable`1 SkipCookingEditorContent, Nullable`1 NumCookersToSpawn, String AdditionalCookerOptions, String OriginalReleaseVersion, String BasedOnReleaseVersion, String CreateReleaseVersion, String CreateReleaseVersionBasePath, String BasedOnReleaseVersionBasePath, Nullable`1 GeneratePatch, Nullable`1 AddPatchLevel, Nullable`1 StageBaseReleasePaks, String DiscVersion, String DLCName, String DLCOverrideCookedSubDir, String DLCOverrideStagedSubDir, String DiffCookedContentPath, Nullable`1 DLCIncludeEngineContent, Nullable`1 DLCPakPluginFile, Nullable`1 DLCActLikePatch, Nullable`1 CrashReporter, Nullable`1 DedicatedServer, Nullable`1 Client, Nullable`1 Deploy, String DeployFolder, String GetFile, Nullable`1 FileServer, Nullable`1 Foreign, Nullable`1 ForeignCode, Nullable`1 LogWindow, Nullable`1 NoCleanStage, Nullable`1 NoClient, Nullable`1 NoDebugInfo, Nullable`1 SeparateDebugInfo, Nullable`1 MapFile, Nullable`1 NoXGE, Nullable`1 SkipPackage, Nullable`1 Package, Nullable`1 Pak, Nullable`1 IgnorePaksFromDifferentCookSource, Nullable`1 IoStore, Nullable`1 Cook4IoStore, Nullable`1 ZenStore, Nullable`1 SkipIoStore, Nullable`1 GenerateOptimizationData, Nullable`1 Prereqs, String AppLocalDirectory, Nullable`1 NoBootstrapExe, Nullable`1 SignedPak, Nullable`1 PakAlignForMemoryMapping, Nullable`1 NullRHI, Nullable`1 FakeClient, Nullable`1 EditorTest, Nullable`1 RunAutomationTests, String RunAutomationTest, Nullable`1 CrashIndex, Nullable`1 SkipCook, Nullable`1 SkipCookOnTheFly, Nullable`1 SkipPak, Nullable`1 PrePak, Nullable`1 SkipStage, Nullable`1 Stage, Nullable`1 Manifests, Nullable`1 CreateChunkInstall, Nullable`1 SkipEncryption, Nullable`1 Unattended, Nullable`1 NumClients, Nullable`1 Archive, String ArchiveDirectoryParam, Nullable`1 ArchiveMetaData, Nullable`1 CreateAppBundle, String SpecifiedClientTarget, String SpecifiedServerTarget, ParamList`1 ProgramTargets, Nullable`1 Distribution, String PackageEncryptionKeyFile, Nullable`1 Prebuilt, Nullable`1 RunTimeoutSeconds, String SpecifiedArchitecture, String UbtArgs, String AdditionalPackageOptions, Nullable`1 IterativeDeploy, Nullable`1 FastCook, Nullable`1 IgnoreCookErrors, Nullable`1 CodeSign, Nullable`1 TreatNonShippingBinariesAsDebugFiles, Nullable`1 UseExtraFlavor, String Provision, String Certificate, String Team, Boolean AutomaticSigning, ParamList`1 InMapsToRebuildLightMaps, ParamList`1 InMapsToRebuildHLOD, ParamList`1 TitleID) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectParams.cs:line 1163
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)):           at BuildCookRun.SetupParams() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\BuildCookRun.Automation.cs:line 47
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)):           at BuildCookRun.ExecuteBuild() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\BuildCookRun.Automation.cs:line 38
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.BuildCommand.Execute() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\BuildCommand.cs:line 343
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.Automation.Execute(List`1 CommandsToExecute, Dictionary`2 Commands) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\Automation.cs:line 253
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)):           at AutomationTool.Automation.Process(ParsedCommandLine AutomationToolCommandLine, StartupTraceListener StartupListener, HashSet`1 ScriptModuleAssemblies) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\Automation.cs:line 153
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)):        (see C:\Users\joshm\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.0\Log.txt for full exception trace)
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)): AutomationTool executed for 0h 0m 0s
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)): AutomationTool exiting with ExitCode=1 (Error_Unknown)
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)): Updating environment variables set by a Turnkey sub-process
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)): The system cannot find the path specified.
+[2023.01.12-20.06.03:372][540]UATHelper: Packaging (Android (ASTC)): The system cannot find the path specified.
+[2023.01.12-20.06.53:549][538]LogSlate: Window 'Output Log' being destroyed
+[2023.01.12-20.06.53:553][538]LogSlate: Window 'Output Log' being destroyed
+[2023.01.12-20.07.09:638][501]LogDebuggerCommands: Repeating last play command: Simulate
+[2023.01.12-20.07.09:644][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.12-20.07.09:645][501]PIE: New page: SIE session: VRTemplateMap (12 Jan 2023, 20:07:09)
+[2023.01.12-20.07.09:645][501]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.01.12-20.07.09:651][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006064s)
+[2023.01.12-20.07.09:651][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.006135s)
+[2023.01.12-20.07.09:651][501]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.12-20.07.09:652][501]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-20.07.09:652][501]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.01.12-20.07.09:652][501]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2023.01.12-20.07.09:673][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.01.12-20.07.09:676][501]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.01.12-20.07.09:676][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.12-20.07.09:676][501]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.12-20.07.09:676][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.12-20.07.09:676][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.12-20.07.09:676][501]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.12-20.07.09:676][501]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.12-20.07.09:676][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.12-20.07.09:676][501]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.12-20.07.09:677][501]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.01.12-20.07.09:677][501]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.01.12-20.07.09:677][501]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.12-20.07.09:679][501]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.12-20.07.09:729][501]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.01.12-20.07.09:729][501]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.12-20.07.09:729][501]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.12-20.07.09:729][501]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.12-20.07.09:731][501]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.01.12-20.07.09:731][501]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.01.12-20.07.09:733][501]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.01.12-20.07.09:733][501]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.01.12-20.07.09:733][501]LogInit: FAudioDevice initialized.
+[2023.01.12-20.07.09:733][501]LogAudio: Display: Audio Device (ID: 7) registered with world 'VRTemplateMap'.
+[2023.01.12-20.07.09:747][501]LogLoad: Game class is 'VRGameMode_C'
+[2023.01.12-20.07.09:749][501]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 60) at 2023.01.12-20.07.09
+[2023.01.12-20.07.09:750][501]LogWorld: Bringing up level for play took: 0.002705
+[2023.01.12-20.07.09:752][501]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2023.01.12-20.07.09:752][501]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.01.12-20.07.09:752][501]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.01.12-20.07.09:764][501]PIE: Server logged in
+[2023.01.12-20.07.09:765][501]PIE: Play in editor total start time 0.121 seconds.
+[2023.01.12-20.07.09:774][501]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Yaw
+[2023.01.12-20.07.09:774][501]LogInput: Error: Duplicate mapping of key Gamepad_RightY for axis Pitch
+[2023.01.12-20.07.09:774][501]LogInput: Error: Duplicate mapping of key Gamepad_RightX for axis Roll
+[2023.01.12-20.07.09:774][501]LogInput: Error: Duplicate mapping of key OculusTouch_Left_Thumbstick_Y for axis Thrust
+[2023.01.12-20.07.09:774][501]LogInput: Error: Duplicate mapping of key OculusTouch_Right_Thumbstick_Y for axis Pitch
+[2023.01.12-20.07.09:774][501]LogInput: Error: Duplicate mapping of key OculusTouch_Right_Thumbstick_X for axis Roll
+[2023.01.12-20.07.09:783][501]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.01.12-20.07.11:848][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-20.07.11:848][619]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.01.12-20.07.11:849][619]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-20.07.11:850][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-20.07.11:864][619]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.12-20.07.11:871][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-20.07.11:889][619]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.12-20.07.11:890][619]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.01.12-20.07.11:890][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.01.12-20.07.11:891][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.01.12-20.07.11:920][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-20.07.11:923][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.01.12-20.07.11:959][620]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2023.01.12-20.07.12:301][640]LogTurnkeySupport: Display: Adding device menu item for JOSHLAPTOP
+[2023.01.12-20.07.13:680][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.01.12-20.07.13:680][721]PIE: New page: PIE session: VRTemplateMap (12 Jan 2023, 20:07:13)
+[2023.01.12-20.07.13:680][721]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.01.12-20.07.13:686][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005997s)
+[2023.01.12-20.07.13:686][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.006064s)
+[2023.01.12-20.07.13:686][721]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.01.12-20.07.13:686][721]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.12-20.07.13:686][721]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.01.12-20.07.13:687][721]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2023.01.12-20.07.13:710][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.01.12-20.07.13:714][721]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.01.12-20.07.13:714][721]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.01.12-20.07.13:714][721]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.01.12-20.07.13:714][721]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.01.12-20.07.13:714][721]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.01.12-20.07.13:714][721]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.01.12-20.07.13:714][721]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.01.12-20.07.13:714][721]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.01.12-20.07.13:714][721]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.01.12-20.07.13:715][721]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.01.12-20.07.13:715][721]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.01.12-20.07.13:715][721]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.01.12-20.07.13:717][721]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.01.12-20.07.13:762][721]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2023.01.12-20.07.13:762][721]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.01.12-20.07.13:762][721]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.01.12-20.07.13:762][721]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.01.12-20.07.13:762][721]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.01.12-20.07.13:762][721]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.01.12-20.07.13:766][721]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.01.12-20.07.13:766][721]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.01.12-20.07.13:766][721]LogInit: FAudioDevice initialized.
+[2023.01.12-20.07.13:766][721]LogAudio: Display: Audio Device (ID: 8) registered with world 'VRTemplateMap'.
+[2023.01.12-20.07.13:778][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-20.07.13:875][721]LogLoad: Game class is 'VRGameMode_C'
+[2023.01.12-20.07.13:878][721]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.01.12-20.07.13
+[2023.01.12-20.07.13:878][721]LogWorld: Bringing up level for play took: 0.003191
+[2023.01.12-20.07.13:883][721]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2023.01.12-20.07.13:884][721]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.01.12-20.07.13:894][721]Cmd: vr.PixelDensity 1.0
+[2023.01.12-20.07.13:894][721]vr.PixelDensity = "1"
+[2023.01.12-20.07.13:901][721]PIE: Server logged in
+[2023.01.12-20.07.13:903][721]PIE: Play in editor total start time 0.223 seconds.
+[2023.01.12-20.07.13:907][721]LogInput: Error: Duplicate mapping of key Gamepad_LeftX for axis Yaw
+[2023.01.12-20.07.13:907][721]LogInput: Error: Duplicate mapping of key Gamepad_RightY for axis Pitch
+[2023.01.12-20.07.13:907][721]LogInput: Error: Duplicate mapping of key Gamepad_RightX for axis Roll
+[2023.01.12-20.07.13:907][721]LogInput: Error: Duplicate mapping of key OculusTouch_Left_Thumbstick_Y for axis Thrust
+[2023.01.12-20.07.13:907][721]LogInput: Error: Duplicate mapping of key OculusTouch_Right_Thumbstick_Y for axis Pitch
+[2023.01.12-20.07.13:907][721]LogInput: Error: Duplicate mapping of key OculusTouch_Right_Thumbstick_X for axis Roll
+[2023.01.12-20.07.13:923][721]LogViewport: Scene viewport resized to 1284x740, mode Windowed.
+[2023.01.12-20.07.13:971][721]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.01.12-20.07.24:563][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.01.12-20.07.24:563][503]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.01.12-20.07.24:592][503]LogSlate: Window 'PROJECT-S Preview [NetMode: Standalone]  (64-bit/SM5) OpenXR Oculus (1.79.0)' being destroyed
+[2023.01.12-20.07.24:595][503]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.01.12-20.07.24:595][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-20.07.24:609][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.01.12-20.07.24:614][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.12-20.07.24:634][503]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.01.12-20.07.24:634][503]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.01.12-20.07.24:634][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.01.12-20.07.24:637][503]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.01.12-20.07.24:675][503]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.01.12-20.07.24:744][504]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2023.01.12-20.23.11:809][284]LogTurnkeySupport: Display: Adding device menu item for JOSHLAPTOP
+[2023.01.12-20.23.24:231][ 18]LogTurnkeySupport: Display: Adding device menu item for JOSHLAPTOP
+[2023.01.12-20.24.42:508][706]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.01.12-20.24.44:748][706]LogTurnkeySupport: Project requires temp target (OpenXR plugin is enabled)
+[2023.01.12-20.24.44:748][706]LogLauncherProfile: Unable to use promoted target - ../../../../../../Users/joshm/Desktop/PROJECT-S/PROJECT-S/Binaries/Android/UnrealGame.target does not exist.
+[2023.01.12-20.24.44:761][706]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.0/Engine/Build/BatchFiles/RunUAT.bat" -ScriptsForProject="C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject" Turnkey -command=VerifySdk -platform=Android -UpdateIfNeeded -EditorIO -EditorIOPort=61844  -project="C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject" BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook  -project="C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject"  -unrealexe="C:\Program Files\Epic Games\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Android  -cookflavor=Multi -ddc=InstalledDerivedDataBackendGraph -installed -stage -archive -package -build -compressed -iostore -pak -prereqs -archivedirectory="C:/Users/joshm/Desktop" -clientconfig=Development" -nocompile ]
+[2023.01.12-20.24.44:811][708]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): Running AutomationTool...
+[2023.01.12-20.24.45:002][719]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): Parsing command line: -ScriptsForProject=C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject Turnkey -command=VerifySdk -platform=Android -UpdateIfNeeded -EditorIO -EditorIOPort=61844 -project=C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject BuildCookRun -nop4 -utf8output -nocompileeditor -skipbuildeditor -cook -project=C:/Users/joshm/Desktop/PROJECT-S/PROJECT-S/PROJECT-S.uproject -unrealexe="C:\Program Files\Epic Games\UE_5.0\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -platform=Android -cookflavor=Multi -ddc=InstalledDerivedDataBackendGraph -installed -stage -archive -package -build -compressed -iostore -pak -prereqs -archivedirectory=C:/Users/joshm/Desktop -clientconfig=Development -nocompile
+[2023.01.12-20.24.45:268][735]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): Log location: C:\Users\joshm\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.0\Log.txt
+[2023.01.12-20.24.45:484][748]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): Installed Sdk validity:
+[2023.01.12-20.24.45:484][748]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): Android: (Status=Valid, Installed=r21e, AutoSDK=, MinAllowed=r21a, MaxAllowed=r23a, Flags="InstalledSdk_ValidVersionExists")
+[2023.01.12-20.24.45:484][748]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): Scanning for envvar changes...
+[2023.01.12-20.24.45:484][748]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): ... done! 
+[2023.01.12-20.24.45:484][748]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): Cleaning Temp Paths...
+[2023.01.12-20.24.45:484][748]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): BUILD SUCCESSFUL
+[2023.01.12-20.24.45:503][749]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): Setting up ProjectParams for C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\PROJECT-S.uproject
+[2023.01.12-20.24.45:618][756]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): PROJECT-S.uproject requires a temporary target.cs to be generated (OpenXR plugin is enabled)
+[2023.01.12-20.24.45:778][765]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): WARNING: Errors generated while parsing 'C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs'
+[2023.01.12-20.24.45:778][765]PackagingResults: Warning: Errors generated while parsing 'C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs'
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS1514: { expected
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS1513: } expected
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS8652: The feature 'top-level statements' is currently in Preview and *unsupported*. To use Preview features, use the 'preview' language version.
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,21): error CS8803: Top-level statements must precede namespace and type declarations.
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,30): error CS1002: ; expected
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,30): error CS1022: Type or namespace definition, or end-of-file expected
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(3,32): error CS0116: A namespace cannot directly contain members such as fields or methods
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(4,2): error CS1513: } expected
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,9): error CS0116: A namespace cannot directly contain members such as fields or methods
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,36): error CS1003: Syntax error, ',' expected
+[2023.01.12-20.24.45:802][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,44): error CS1002: ; expected
+[2023.01.12-20.24.45:803][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,44): error CS1022: Type or namespace definition, or end-of-file expected
+[2023.01.12-20.24.45:803][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(5,58): error CS1002: ; expected
+[2023.01.12-20.24.45:803][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): C:\Users\joshm\Desktop\PROJECT-S\PROJECT-S\Intermediate\Source\PROJECT-S.Target.cs(11,1): error CS1022: Type or namespace definition, or end-of-file expected
+[2023.01.12-20.24.45:811][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): ERROR: System.NullReferenceException: Object reference not set to an instance of an object.
+[2023.01.12-20.24.45:811][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at AutomationTool.ProjectUtils.CompileAndLoadTargetsAssembly(ProjectProperties Properties, FileReference TargetsDllFilename, Boolean DoNotCompile, List`1 TargetScripts) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 773
+[2023.01.12-20.24.45:811][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at AutomationTool.ProjectUtils.DetectTargetsForProject(ProjectProperties Properties, List`1 ExtraSearchPaths) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 751
+[2023.01.12-20.24.45:811][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at AutomationTool.ProjectUtils.DetectProjectProperties(FileReference RawProjectPath, List`1 ClientTargetPlatforms, List`1 ClientTargetConfigurations, Boolean AssetNativizationRequested) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 567
+[2023.01.12-20.24.45:811][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at AutomationTool.ProjectUtils.GetProjectProperties(FileReference RawProjectPath, List`1 ClientTargetPlatforms, List`1 ClientTargetConfigurations, Boolean AssetNativizationRequested) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectUtils.cs:line 118
+[2023.01.12-20.24.45:811][767]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at AutomationTool.ProjectParams.AutodetectSettings(Boolean bReset) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectParams.cs:line 2207
+[2023.01.12-20.24.45:811][767]PackagingResults: Error: System.NullReferenceException: Object reference not set to an instance of an object.
+[2023.01.12-20.24.45:818][768]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at AutomationTool.ProjectParams..ctor(FileReference RawProjectPath, BuildCommand Command, String Device, String MapToRun, String AdditionalServerMapParams, ParamList`1 Port, String RunCommandline, String StageCommandline, String BundleName, String StageDirectoryParam, String UnrealExe, String UE4Exe, String SignPak, List`1 ClientConfigsToBuild, List`1 ServerConfigsToBuild, ParamList`1 MapsToCook, ParamList`1 MapIniSectionsToCook, ParamList`1 DirectoriesToCook, String DDCGraph, String InternationalizationPreset, ParamList`1 CulturesToCook, ParamList`1 ClientCookedTargets, ParamList`1 EditorTargets, ParamList`1 ServerCookedTargets, List`1 ClientTargetPlatforms, Dictionary`2 ClientDependentPlatformMap, List`1 ServerTargetPlatforms, Dictionary`2 ServerDependentPlatformMap, Nullable`1 Build, Nullable`1 SkipBuildClient, Nullable`1 SkipBuildEditor, Nullable`1 Cook, Nullable`1 Run, Nullable`1 SkipServer, Nullable`1 Clean, Nullable`1 Compressed, Nullable`1 ForceUncompressed, String AdditionalPakOptions, String AdditionalIoStoreOptions, Nullable`1 IterativeCooking, String IterateSharedCookedBuild, Nullable`1 IterateSharedBuildUsePrecompiledExe, Nullable`1 CookAll, Nullable`1 CookPartialGC, Nullable`1 CookInEditor, String CookOutputDir, Nullable`1 CookMapsOnly, Nullable`1 CookOnTheFly, Nullable`1 CookOnTheFlyStreaming, Nullable`1 UnversionedCookedContent, Nullable`1 EncryptIniFiles, Nullable`1 EncryptPakIndex, Nullable`1 EncryptEverything, Nullable`1 SkipCookingEditorContent, Nullable`1 NumCookersToSpawn, String AdditionalCookerOptions, String OriginalReleaseVersion, String BasedOnReleaseVersion, String CreateReleaseVersion, String CreateReleaseVersionBasePath, String BasedOnReleaseVersionBasePath, Nullable`1 GeneratePatch, Nullable`1 AddPatchLevel, Nullable`1 StageBaseReleasePaks, String DiscVersion, String DLCName, String DLCOverrideCookedSubDir, String DLCOverrideStagedSubDir, String DiffCookedContentPath, Nullable`1 DLCIncludeEngineContent, Nullable`1 DLCPakPluginFile, Nullable`1 DLCActLikePatch, Nullable`1 CrashReporter, Nullable`1 DedicatedServer, Nullable`1 Client, Nullable`1 Deploy, String DeployFolder, String GetFile, Nullable`1 FileServer, Nullable`1 Foreign, Nullable`1 ForeignCode, Nullable`1 LogWindow, Nullable`1 NoCleanStage, Nullable`1 NoClient, Nullable`1 NoDebugInfo, Nullable`1 SeparateDebugInfo, Nullable`1 MapFile, Nullable`1 NoXGE, Nullable`1 SkipPackage, Nullable`1 Package, Nullable`1 Pak, Nullable`1 IgnorePaksFromDifferentCookSource, Nullable`1 IoStore, Nullable`1 Cook4IoStore, Nullable`1 ZenStore, Nullable`1 SkipIoStore, Nullable`1 GenerateOptimizationData, Nullable`1 Prereqs, String AppLocalDirectory, Nullable`1 NoBootstrapExe, Nullable`1 SignedPak, Nullable`1 PakAlignForMemoryMapping, Nullable`1 NullRHI, Nullable`1 FakeClient, Nullable`1 EditorTest, Nullable`1 RunAutomationTests, String RunAutomationTest, Nullable`1 CrashIndex, Nullable`1 SkipCook, Nullable`1 SkipCookOnTheFly, Nullable`1 SkipPak, Nullable`1 PrePak, Nullable`1 SkipStage, Nullable`1 Stage, Nullable`1 Manifests, Nullable`1 CreateChunkInstall, Nullable`1 SkipEncryption, Nullable`1 Unattended, Nullable`1 NumClients, Nullable`1 Archive, String ArchiveDirectoryParam, Nullable`1 ArchiveMetaData, Nullable`1 CreateAppBundle, String SpecifiedClientTarget, String SpecifiedServerTarget, ParamList`1 ProgramTargets, Nullable`1 Distribution, String PackageEncryptionKeyFile, Nullable`1 Prebuilt, Nullable`1 RunTimeoutSeconds, String SpecifiedArchitecture, String UbtArgs, String AdditionalPackageOptions, Nullable`1 IterativeDeploy, Nullable`1 FastCook, Nullable`1 IgnoreCookErrors, Nullable`1 CodeSign, Nullable`1 TreatNonShippingBinariesAsDebugFiles, Nullable`1 UseExtraFlavor, String Provision, String Certificate, String Team, Boolean AutomaticSigning, ParamList`1 InMapsToRebuildLightMaps, ParamList`1 InMapsToRebuildHLOD, ParamList`1 TitleID) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\ProjectParams.cs:line 1163
+[2023.01.12-20.24.45:818][768]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at BuildCookRun.SetupParams() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\BuildCookRun.Automation.cs:line 47
+[2023.01.12-20.24.45:818][768]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at BuildCookRun.ExecuteBuild() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\Scripts\BuildCookRun.Automation.cs:line 38
+[2023.01.12-20.24.45:818][768]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at AutomationTool.BuildCommand.Execute() in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\BuildCommand.cs:line 343
+[2023.01.12-20.24.45:818][768]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at AutomationTool.Automation.Execute(List`1 CommandsToExecute, Dictionary`2 Commands) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\Automation.cs:line 253
+[2023.01.12-20.24.45:818][768]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):           at AutomationTool.Automation.Process(ParsedCommandLine AutomationToolCommandLine, StartupTraceListener StartupListener, HashSet`1 ScriptModuleAssemblies) in D:\build\++UE5\Sync\Engine\Source\Programs\AutomationTool\AutomationUtils\Automation.cs:line 153
+[2023.01.12-20.24.45:818][768]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)):        (see C:\Users\joshm\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.0\Log.txt for full exception trace)
+[2023.01.12-20.24.45:818][768]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): AutomationTool executed for 0h 0m 0s
+[2023.01.12-20.24.45:818][768]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): AutomationTool exiting with ExitCode=1 (Error_Unknown)
+[2023.01.12-20.24.45:837][769]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): Updating environment variables set by a Turnkey sub-process
+[2023.01.12-20.24.45:837][769]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): The system cannot find the path specified.
+[2023.01.12-20.24.45:837][769]UATHelper: Packaging (Android (Multi:ASTC,DXT,ETC2)): The system cannot find the path specified.
+[2023.01.12-20.43.07:780][497]LogDerivedDataCache: C:/Users/joshm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.477 and deleted 0 file(s) with total size 0 MiB.
+[2023.01.12-20.47.47:420][484]LogSlate: Window 'Output Log' being destroyed
+[2023.01.12-20.47.47:425][484]LogSlate: Window 'Output Log' being destroyed
+[2023.01.12-20.47.49:165][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
